@@ -85,6 +85,8 @@ pnpm dev
 
 此时，你会看到类似如下的输出，选择你需要运行的项目：
 
+\scripts\turbo-run\src\run.ts
+
 ```bash
 │
 ◆  Select the app you need to run [dev]:
