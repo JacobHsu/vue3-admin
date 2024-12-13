@@ -5,11 +5,10 @@ import type { VbenFormSchema } from '@vben-core/form-ui';
 import type { AuthenticationProps } from './types';
 
 import { computed, onMounted, reactive, ref } from 'vue';
-import { useRouter } from 'vue-router';
 
 import { $t } from '@vben/locales';
 import { useVbenForm } from '@vben-core/form-ui';
-import { VbenButton, VbenCheckbox } from '@vben-core/shadcn-ui';
+import { VbenButton } from '@vben-core/shadcn-ui';
 
 import Title from './auth-title.vue';
 
@@ -53,7 +52,6 @@ const [Form, formApi] = useVbenForm(
     showDefaultActions: false,
   }),
 );
-const router = useRouter();
 
 const REMEMBER_ME_KEY = `REMEMBER_ME_USERNAME_${location.hostname}`;
 
@@ -71,10 +69,6 @@ async function handleSubmit() {
     );
     emit('submit', values);
   }
-}
-
-function handleGo(path: string) {
-  router.push(path);
 }
 
 onMounted(() => {
@@ -107,28 +101,6 @@ defineExpose({
 
     <Form />
 
-    <div
-      v-if="showRememberMe || showForgetPassword"
-      class="mb-6 flex justify-between"
-    >
-      <div class="flex-center">
-        <VbenCheckbox
-          v-if="showRememberMe"
-          v-model:checked="rememberMe"
-          name="rememberMe"
-        >
-          {{ $t('authentication.rememberMe') }}
-        </VbenCheckbox>
-      </div>
-
-      <span
-        v-if="showForgetPassword"
-        class="vben-link text-sm font-normal"
-        @click="handleGo(forgetPasswordPath)"
-      >
-        {{ $t('authentication.forgetPassword') }}
-      </span>
-    </div>
     <VbenButton
       :class="{
         'cursor-wait': loading,
