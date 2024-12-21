@@ -7,12 +7,7 @@ import { preferences, usePreferences } from '@vben/preferences';
 import { useAccessStore } from '@vben/stores';
 import { VbenFullScreen, VbenIconButton } from '@vben-core/shadcn-ui';
 
-import {
-  GlobalSearch,
-  LanguageToggle,
-  PreferencesButton,
-  ThemeToggle,
-} from '../../widgets';
+import { GlobalSearch, LanguageToggle, ThemeToggle } from '../../widgets';
 
 interface Props {
   /**
@@ -29,7 +24,7 @@ withDefaults(defineProps<Props>(), {
   theme: 'light',
 });
 
-const emit = defineEmits<{ clearPreferencesAndLogout: [] }>();
+// const emit = defineEmits<{ clearPreferencesAndLogout: [] }>();
 
 const REFERENCE_VALUE = 50;
 
@@ -106,9 +101,9 @@ const leftSlots = computed(() => {
   return list.sort((a, b) => a.index - b.index);
 });
 
-function clearPreferencesAndLogout() {
-  emit('clearPreferencesAndLogout');
-}
+// function clearPreferencesAndLogout() {
+//   emit('clearPreferencesAndLogout');
+// }
 </script>
 
 <template>
@@ -147,12 +142,12 @@ function clearPreferencesAndLogout() {
           />
         </template>
 
-        <template v-else-if="slot.name === 'preferences'">
+        <!-- <template v-else-if="slot.name === 'preferences'">
           <PreferencesButton
             class="mr-1"
             @clear-preferences-and-logout="clearPreferencesAndLogout"
           />
-        </template>
+        </template> -->
         <template v-else-if="slot.name === 'theme-toggle'">
           <ThemeToggle class="mr-1 mt-[2px]" />
         </template>
