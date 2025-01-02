@@ -1,6 +1,6 @@
 import type { RouteRecordRaw } from 'vue-router';
 
-import { BasicLayout } from '#/layouts';
+import { BasicLayout, IFrameView } from '#/layouts';
 import { $t } from '#/locales';
 
 const routes: RouteRecordRaw[] = [
@@ -15,6 +15,16 @@ const routes: RouteRecordRaw[] = [
     name: 'Demos',
     path: '/demos',
     children: [
+      {
+        name: 'TailwindcssDemo',
+        path: '/demos/outside/iframe/tailwindcss',
+        component: IFrameView,
+        meta: {
+          icon: 'devicon:tailwindcss',
+          iframeSrc: 'https://tailwindcss.com/',
+          title: 'Tailwindcss',
+        },
+      },
       {
         meta: {
           title: $t('demos.antd'),
