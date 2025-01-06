@@ -16,15 +16,25 @@ const routes: RouteRecordRaw[] = [
     path: '/demos',
     children: [
       {
-        name: 'TailwindcssDemo',
-        path: '/demos/outside/iframe/tailwindcss',
+        name: 'TradingviewDemo',
+        path: '/demos/outside/iframe/tradingview',
         component: IFrameView,
         meta: {
-          icon: 'devicon:tailwindcss',
-          iframeSrc: 'https://tailwindcss.com/',
-          title: 'Tailwindcss',
+          icon: 'devicon:vuejs',
+          iframeSrc: 'https://jacobhsu.github.io/vue-tradingview-widget',
+          title: 'Tradingview',
         },
       },
+      // {
+      //   name: 'TailwindcssDemo',
+      //   path: '/demos/outside/iframe/tailwindcss',
+      //   component: IFrameView,
+      //   meta: {
+      //     icon: 'devicon:tailwindcss',
+      //     iframeSrc: 'https://tailwindcss.com/',
+      //     title: 'Tailwindcss',
+      //   },
+      // },
       {
         meta: {
           title: $t('demos.antd'),
