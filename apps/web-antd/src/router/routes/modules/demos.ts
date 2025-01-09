@@ -35,6 +35,28 @@ const routes: RouteRecordRaw[] = [
           title: 'VDE chart',
         },
       },
+      {
+        name: 'kospi',
+        path: '/demos/outside/iframe/kospi',
+        component: IFrameView,
+        meta: {
+          icon: 'devicon:chrome',
+          iframeSrc:
+            'https://www.cnyes.com/global/astock/html5chart.aspx?area=KR&code=KOSPI',
+          title: 'kospi',
+        },
+      },
+      {
+        name: 'shipping',
+        path: '/demos/outside/iframe/shipping',
+        component: IFrameView,
+        meta: {
+          icon: 'devicon:googlecloud',
+          iframeSrc:
+            'https://docs.google.com/spreadsheets/d/e/2PACX-1vQyuk30N4qW79BNOpBJrJYXuxc80L8Wsraj4JALpVlcg947Od4Yo1NJhYZTOkRMZxTbQOSIWKvuaZEs/pubhtml?gid=0&single=true',
+          title: 'shipping',
+        },
+      },
     ],
   },
 ];
