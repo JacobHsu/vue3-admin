@@ -57,6 +57,17 @@ const routes: RouteRecordRaw[] = [
           title: 'shipping',
         },
       },
+      {
+        name: 'plastics',
+        path: '/demos/outside/iframe/plastics',
+        component: IFrameView,
+        meta: {
+          icon: 'devicon:googlecloud',
+          iframeSrc:
+            'https://docs.google.com/spreadsheets/d/e/2PACX-1vQyuk30N4qW79BNOpBJrJYXuxc80L8Wsraj4JALpVlcg947Od4Yo1NJhYZTOkRMZxTbQOSIWKvuaZEs/pubhtml?gid=2054590742&single=true',
+          title: 'plastics',
+        },
+      },
     ],
   },
 ];
