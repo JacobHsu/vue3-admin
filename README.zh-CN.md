@@ -9,6 +9,13 @@
 
 **中文** | [English](./README.md) | [日本語](./README.ja-JP.md)
 
+View：Vue  
+CSS：Tailwind CSS  
+單元測試：Vitest  
+語言工具：TypeScript、ESLint  
+編譯工具：Vite  
+軟體包管理：pnpm
+
 ## 简介
 
 Vue Vben Admin 是 Vue Vben Admin 的升级版本。作为一个免费开源的中后台模板，它采用了最新的 Vue 3、Vite、TypeScript 等主流技术开发，开箱即用，可用于中后台前端开发，也适合学习参考。

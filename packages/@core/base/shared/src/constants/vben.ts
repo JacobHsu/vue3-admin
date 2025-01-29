@@ -3,6 +3,7 @@
  */
 export const VBEN_GITHUB_URL = 'https://github.com/vbenjs/vue-vben-admin';
 export const JACOB_GITHUB_URL = 'https://github.com/JacobHsu/vue3-admin';
+export const GITHUB_URL = 'https://github.com/JacobHsu/Automa';
 
 /**
  * @zh_CN 文档地址
