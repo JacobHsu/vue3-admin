@@ -24,7 +24,7 @@ const routes: RouteRecordRaw[] = [
         meta: {
           icon: 'mdi:github',
           link: GITHUB_URL,
-          title: 'Github',
+          title: 'Automa',
         },
       },
     ],

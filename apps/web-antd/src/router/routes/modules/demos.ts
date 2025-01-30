@@ -68,6 +68,17 @@ const routes: RouteRecordRaw[] = [
           title: 'plastics',
         },
       },
+      {
+        name: 'etfs',
+        path: '/demos/outside/iframe/etfs',
+        component: IFrameView,
+        meta: {
+          icon: 'devicon:googlecloud',
+          iframeSrc:
+            'https://docs.google.com/spreadsheets/d/e/2PACX-1vQyuk30N4qW79BNOpBJrJYXuxc80L8Wsraj4JALpVlcg947Od4Yo1NJhYZTOkRMZxTbQOSIWKvuaZEs/pubhtml?gid=1066999246&single=true',
+          title: 'etfs',
+        },
+      },
     ],
   },
 ];
