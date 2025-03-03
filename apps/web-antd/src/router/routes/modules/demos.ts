@@ -16,6 +16,16 @@ const routes: RouteRecordRaw[] = [
     path: '/demos',
     children: [
       {
+        name: 'stockbot',
+        path: '/demos/outside/iframe/stockbot',
+        component: IFrameView,
+        meta: {
+          icon: 'devicon:openapi',
+          iframeSrc: 'https://stockbot-jade.vercel.app',
+          title: 'stockbot',
+        },
+      },
+      {
         name: 'TradingviewDemo',
         path: '/demos/outside/iframe/tradingview',
         component: IFrameView,
