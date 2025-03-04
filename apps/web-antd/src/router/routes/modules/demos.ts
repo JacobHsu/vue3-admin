@@ -26,6 +26,26 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
+        name: 'heatmap',
+        path: '/demos/outside/iframe/heatmap',
+        component: IFrameView,
+        meta: {
+          icon: 'devicon:minitab',
+          iframeSrc: 'https://www.nstock.tw/market_index/heatmap',
+          title: 'heatmap',
+        },
+      },
+      {
+        name: 'industry',
+        path: '/demos/outside/iframe/finlab',
+        component: IFrameView,
+        meta: {
+          icon: 'devicon:minitab',
+          iframeSrc: 'https://ai.finlab.tw/industry',
+          title: 'industry',
+        },
+      },
+      {
         name: 'TradingviewDemo',
         path: '/demos/outside/iframe/tradingview',
         component: IFrameView,
