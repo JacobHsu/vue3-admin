@@ -50,8 +50,8 @@ const routes: RouteRecordRaw[] = [
         path: '/demos/outside/iframe/tradingview',
         component: IFrameView,
         meta: {
-          icon: 'devicon:vuejs',
-          iframeSrc: 'https://jacobhsu.github.io/vue-tradingview-widget',
+          icon: 'devicon:react',
+          iframeSrc: 'https://react-tradingview-widgets.vercel.app',
           title: 'Tradingview',
         },
       },
