@@ -77,6 +77,16 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
+        name: 'ranking',
+        path: '/demos/outside/iframe/ranking',
+        component: IFrameView,
+        meta: {
+          icon: 'devicon:chrome',
+          iframeSrc: 'https://www.cnyes.com/twstock/ranking2.aspx',
+          title: 'ranking',
+        },
+      },
+      {
         name: 'shipping',
         path: '/demos/outside/iframe/shipping',
         component: IFrameView,
