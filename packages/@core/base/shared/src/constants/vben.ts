@@ -4,6 +4,8 @@
 export const VBEN_GITHUB_URL = 'https://github.com/vbenjs/vue-vben-admin';
 export const JACOB_GITHUB_URL = 'https://github.com/JacobHsu/vue3-admin';
 export const GITHUB_URL = 'https://github.com/JacobHsu/Automa';
+export const GITHUB_URL_CHROME_EXTENSIONS =
+  'https://github.com/JacobHsu/twstock_chrome_extensions';
 
 /**
  * @zh_CN 文档地址
