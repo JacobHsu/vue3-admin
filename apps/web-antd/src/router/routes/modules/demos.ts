@@ -77,6 +77,16 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
+        name: 'day-trading',
+        path: '/demos/outside/iframe/day-trading',
+        component: IFrameView,
+        meta: {
+          icon: 'devicon:chrome',
+          iframeSrc: 'https://histock.tw/stock/rank.aspx?m=4&d=0&t=dt',
+          title: 'day-trading',
+        },
+      },
+      {
         name: 'ranking',
         path: '/demos/outside/iframe/ranking',
         component: IFrameView,
