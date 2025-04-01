@@ -26,6 +26,16 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
+        name: 'histock',
+        path: '/demos/outside/iframe/histock',
+        component: IFrameView,
+        meta: {
+          icon: 'devicon:codepen',
+          iframeSrc: 'https://codepen.io/JacobHsu/full/WbNYVay',
+          title: 'Stock Index',
+        },
+      },
+      {
         name: 'heatmap',
         path: '/demos/outside/iframe/heatmap',
         component: IFrameView,
@@ -63,17 +73,6 @@ const routes: RouteRecordRaw[] = [
           icon: 'devicon:html5',
           iframeSrc: 'https://jacobhsu.github.io/stock-klinechart',
           title: 'VDE chart',
-        },
-      },
-      {
-        name: 'kospi',
-        path: '/demos/outside/iframe/kospi',
-        component: IFrameView,
-        meta: {
-          icon: 'devicon:chrome',
-          iframeSrc:
-            'https://www.cnyes.com/global/astock/html5chart.aspx?area=KR&code=KOSPI',
-          title: 'kospi',
         },
       },
       {
