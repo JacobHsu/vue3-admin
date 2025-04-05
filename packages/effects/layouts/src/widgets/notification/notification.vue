@@ -110,7 +110,11 @@ function handleClick(item: NotificationItem) {
                 />
               </span>
               <div class="flex flex-col gap-1 leading-none">
-                <p class="font-semibold">{{ item.title }}</p>
+                <p class="font-semibold">
+                  <a v-if="item.url" :href="item.url" target="_blank">
+                    {{ item.title }}
+                  </a>
+                </p>
                 <p class="text-muted-foreground my-1 line-clamp-2 text-xs">
                   {{ item.message }}
                 </p>

@@ -25,8 +25,9 @@ const notifications = ref<NotificationItem[]>([
     avatar: 'https://avatar.vercel.sh/1',
     date: '刚刚',
     isRead: false,
-    message: '各地區股市ETF(報酬率)',
-    title: 'ETF觀測站',
+    message: 'Stock Screener',
+    title: 'FINVIZ.com World',
+    url: 'https://finviz.com/map.ashx?t=geo',
   },
 ]);
 

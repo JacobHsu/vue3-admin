@@ -4,6 +4,7 @@ interface NotificationItem {
   isRead?: boolean;
   message: string;
   title: string;
+  url?: string;
 }
 
 export type { NotificationItem };
