@@ -29,6 +29,14 @@ const notifications = ref<NotificationItem[]>([
     title: 'FINVIZ.com World',
     url: 'https://finviz.com/map.ashx?t=geo',
   },
+  {
+    avatar: 'https://www.macromicro.me/img/etf/intro.png',
+    date: '刚刚',
+    isRead: false,
+    message: 'ETF Screener',
+    title: 'Macromicro ETF US',
+    url: 'https://www.macromicro.me/etf/us/screener',
+  },
 ]);
 
 const userStore = useUserStore();
