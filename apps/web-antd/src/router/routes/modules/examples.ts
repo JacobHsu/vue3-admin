@@ -1,6 +1,10 @@
 import type { RouteRecordRaw } from 'vue-router';
 
-import { GITHUB_URL, GITHUB_URL_CHROME_EXTENSIONS } from '@vben/constants';
+import {
+  GITHUB_URL,
+  GITHUB_URL_CHROME_EXTENSIONS,
+  GITHUB_URL_PUPPETEER,
+} from '@vben/constants';
 
 import { BasicLayout, IFrameView } from '#/layouts';
 import { $t } from '#/locales';
@@ -19,7 +23,7 @@ const routes: RouteRecordRaw[] = [
     children: [
       {
         name: 'Automa',
-        path: '/vben-admin/github',
+        path: '/vben-admin/automa',
         component: IFrameView,
         meta: {
           icon: 'mdi:github',
@@ -35,6 +39,16 @@ const routes: RouteRecordRaw[] = [
           icon: 'mdi:github',
           link: GITHUB_URL_CHROME_EXTENSIONS,
           title: 'Chrome extensions',
+        },
+      },
+      {
+        name: 'Puppeteer',
+        path: '/vben-admin/puppeteer',
+        component: IFrameView,
+        meta: {
+          icon: 'mdi:github',
+          link: GITHUB_URL_PUPPETEER,
+          title: 'Puppeteer',
         },
       },
     ],
