@@ -107,14 +107,14 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        name: 'plastics',
-        path: '/demos/outside/iframe/plastics',
+        name: 'twse',
+        path: '/demos/outside/iframe/twse',
         component: IFrameView,
         meta: {
           icon: 'devicon:googlecloud',
           iframeSrc:
-            'https://docs.google.com/spreadsheets/d/e/2PACX-1vQyuk30N4qW79BNOpBJrJYXuxc80L8Wsraj4JALpVlcg947Od4Yo1NJhYZTOkRMZxTbQOSIWKvuaZEs/pubhtml?gid=2054590742&single=true',
-          title: 'plastics',
+            'https://docs.google.com/spreadsheets/d/e/2PACX-1vTN9WgNr0blAuxt4eHenoVe7ea5gSSapy0JnNWQ1ymkTczwbvGO0xKgO51ouw6_pdoAT-cHR8CD6MuQ/pubhtml?gid=0&single=true',
+          title: ' TWSE',
         },
       },
       {
