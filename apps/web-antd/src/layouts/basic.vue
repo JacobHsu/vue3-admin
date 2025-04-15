@@ -30,6 +30,14 @@ const notifications = ref<NotificationItem[]>([
     url: 'https://finviz.com/map.ashx?t=geo',
   },
   {
+    avatar: 'https://www.dianomi.com/img/a/sav2/222436/9/110x70.jpg',
+    date: '刚刚',
+    isRead: false,
+    message: 'ETF Screener',
+    title: 'FINVIZ.com ETF',
+    url: 'https://finviz.com/map.ashx?t=etf',
+  },
+  {
     avatar: 'https://www.macromicro.me/img/etf/intro.png',
     date: '刚刚',
     isRead: false,
