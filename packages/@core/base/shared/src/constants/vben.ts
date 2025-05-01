@@ -8,6 +8,7 @@ export const GITHUB_URL_CHROME_EXTENSIONS =
   'https://github.com/JacobHsu/twstock_chrome_extensions';
 export const GITHUB_URL_PUPPETEER =
   'https://github.com/JacobHsu/server-puppeteer';
+export const GITHUB_URL_N8N = 'https://github.com/JacobHsu/n8n';
 
 /**
  * @zh_CN 文档地址

@@ -3,6 +3,7 @@ import type { RouteRecordRaw } from 'vue-router';
 import {
   GITHUB_URL,
   GITHUB_URL_CHROME_EXTENSIONS,
+  GITHUB_URL_N8N,
   GITHUB_URL_PUPPETEER,
 } from '@vben/constants';
 
@@ -49,6 +50,16 @@ const routes: RouteRecordRaw[] = [
           icon: 'mdi:github',
           link: GITHUB_URL_PUPPETEER,
           title: 'Puppeteer',
+        },
+      },
+      {
+        name: 'N8N',
+        path: '/vben-admin/n8n',
+        component: IFrameView,
+        meta: {
+          icon: 'mdi:github',
+          link: GITHUB_URL_N8N,
+          title: 'n8n',
         },
       },
     ],
