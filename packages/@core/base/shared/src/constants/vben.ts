@@ -9,6 +9,7 @@ export const GITHUB_URL_CHROME_EXTENSIONS =
 export const GITHUB_URL_PUPPETEER =
   'https://github.com/JacobHsu/server-puppeteer';
 export const GITHUB_URL_N8N = 'https://github.com/JacobHsu/n8n';
+export const GITHUB_URL_AUTOGEN = 'https://github.com/JacobHsu/autogen_crypto';
 
 /**
  * @zh_CN 文档地址
