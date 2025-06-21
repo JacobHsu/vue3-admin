@@ -66,6 +66,16 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
+        name: 'TvWidgetsDemo',
+        path: '/demos/outside/iframe/tvwidgets',
+        component: IFrameView,
+        meta: {
+          icon: 'devicon:html5',
+          iframeSrc: 'https://jacobhsu.github.io/tradingview-widgets',
+          title: 'widgets',
+        },
+      },
+      {
         name: 'TradingviewKlinechartDemo',
         path: '/demos/outside/iframe/klinechart',
         component: IFrameView,
