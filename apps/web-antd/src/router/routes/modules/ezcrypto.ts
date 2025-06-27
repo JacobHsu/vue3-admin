@@ -26,6 +26,16 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
+        name: 'BTC',
+        path: '/crypto/outside/iframe/btc',
+        component: IFrameView,
+        meta: {
+          icon: 'cryptocurrency:btc',
+          iframeSrc: 'https://jacobhsu.github.io/altfins-widgets/BTC',
+          title: 'BTC',
+        },
+      },
+      {
         name: 'ETH',
         path: '/crypto/outside/iframe/eth',
         component: IFrameView,
@@ -43,6 +53,36 @@ const routes: RouteRecordRaw[] = [
           icon: 'cryptocurrency:sol',
           iframeSrc: 'https://jacobhsu.github.io/altfins-widgets/SOL',
           title: 'SOL',
+        },
+      },
+      {
+        name: 'DOGE',
+        path: '/crypto/outside/iframe/doge',
+        component: IFrameView,
+        meta: {
+          icon: 'cryptocurrency:doge',
+          iframeSrc: 'https://jacobhsu.github.io/altfins-widgets/DOGE',
+          title: 'DOGE',
+        },
+      },
+      {
+        name: 'ADA',
+        path: '/crypto/outside/iframe/ada',
+        component: IFrameView,
+        meta: {
+          icon: 'cryptocurrency:ada',
+          iframeSrc: 'https://jacobhsu.github.io/altfins-widgets/ADA',
+          title: 'ADA',
+        },
+      },
+      {
+        name: 'SUI',
+        path: '/crypto/outside/iframe/sui',
+        component: IFrameView,
+        meta: {
+          icon: 'cryptocurrency:ht',
+          iframeSrc: 'https://jacobhsu.github.io/altfins-widgets/SUI',
+          title: 'SUI',
         },
       },
     ],
