@@ -47,6 +47,10 @@ Open the project in Gitpod (free online dev environment for GitHub) and start co
 
 [Document](https://doc.vben.pro/)
 
+## Icons
+
+iconify [cryptocurrency](https://iconify.design/icon-sets/cryptocurrency/):eth
+
 ## Install and use
 
 - Get the project code
