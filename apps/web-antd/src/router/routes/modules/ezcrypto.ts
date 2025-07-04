@@ -76,13 +76,13 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        name: 'SUI',
-        path: '/crypto/outside/iframe/sui',
+        name: 'Coinglass',
+        path: '/crypto/outside/iframe/coinglass',
         component: IFrameView,
         meta: {
-          icon: 'cryptocurrency:ht',
-          iframeSrc: 'https://jacobhsu.github.io/altfins-widgets/SUI',
-          title: 'SUI',
+          icon: 'https://cdn.coinglasscdn.com/static/icon_200.png',
+          iframeSrc: 'https://www.coinglass.com/tv/zh-TW/Binance_ETHUSDT',
+          title: 'Coinglass',
         },
       },
     ],
