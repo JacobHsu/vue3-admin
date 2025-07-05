@@ -16,6 +16,26 @@ const routes: RouteRecordRaw[] = [
     path: '/crypto',
     children: [
       {
+        name: 'TradingviewSignal',
+        path: '/demos/outside/iframe/signal',
+        component: IFrameView,
+        meta: {
+          icon: 'material-symbols:cardiology-rounded',
+          iframeSrc: 'https://crypto-tv-signal.lovable.app/',
+          title: 'Tv Signal',
+        },
+      },
+      {
+        name: 'TradingviewDemo',
+        path: '/demos/outside/iframe/tradingview',
+        component: IFrameView,
+        meta: {
+          icon: 'cryptocurrency:bab',
+          iframeSrc: 'https://react-tradingview-widgets.vercel.app',
+          title: 'Tradingview',
+        },
+      },
+      {
         name: 'TvWidgetsDemo',
         path: '/crypto/outside/iframe/tvwidgets',
         component: IFrameView,
