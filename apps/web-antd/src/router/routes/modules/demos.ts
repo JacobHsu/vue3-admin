@@ -56,16 +56,6 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        name: 'TradingviewKlinechartDemo',
-        path: '/demos/outside/iframe/klinechart',
-        component: IFrameView,
-        meta: {
-          icon: 'devicon:html5',
-          iframeSrc: 'https://jacobhsu.github.io/stock-klinechart',
-          title: 'VDE chart',
-        },
-      },
-      {
         name: 'day-trading',
         path: '/demos/outside/iframe/day-trading',
         component: IFrameView,
