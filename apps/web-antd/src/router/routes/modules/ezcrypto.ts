@@ -86,13 +86,13 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        name: 'ADA',
-        path: '/crypto/outside/iframe/ada',
+        name: 'Squeeze',
+        path: '/crypto/outside/iframe/squeeze',
         component: IFrameView,
         meta: {
-          icon: 'cryptocurrency:ada',
-          iframeSrc: 'https://jacobhsu.github.io/altfins-widgets/ADA',
-          title: 'ADA',
+          icon: 'icon-park-outline:align-vertical-center-two',
+          iframeSrc: 'https://crypto-ttm-squeeze.replit.app',
+          title: 'Squeeze',
         },
       },
       {
