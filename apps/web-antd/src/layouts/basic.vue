@@ -45,6 +45,14 @@ const notifications = ref<NotificationItem[]>([
     title: 'Macromicro ETF US',
     url: 'https://www.macromicro.me/etf/us/screener',
   },
+  {
+    avatar: 'https://cryptowatch.net/images/darkLogo.png',
+    date: '刚刚',
+    isRead: false,
+    message: 'Multiple TradingView Charts in 1 Screen',
+    title: 'CryptoWatch',
+    url: 'https://cryptowatch.net/',
+  },
 ]);
 
 const userStore = useUserStore();
