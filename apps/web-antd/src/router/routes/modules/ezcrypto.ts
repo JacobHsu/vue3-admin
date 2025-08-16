@@ -86,13 +86,13 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        name: 'Squeeze',
-        path: '/crypto/outside/iframe/squeeze',
+        name: 'Weekly Calendar',
+        path: '/crypto/outside/iframe/calendar',
         component: IFrameView,
         meta: {
-          icon: 'icon-park-outline:align-vertical-center-two',
-          iframeSrc: 'https://crypto-ttm-squeeze.replit.app',
-          title: 'Squeeze',
+          icon: 'ic:baseline-calendar-month',
+          iframeSrc: 'https://crypto-weekly-calendar.lovable.app/',
+          title: 'Weekly Calendar',
         },
       },
       {
