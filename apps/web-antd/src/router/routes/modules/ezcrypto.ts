@@ -16,6 +16,26 @@ const routes: RouteRecordRaw[] = [
     path: '/crypto',
     children: [
       {
+        name: 'CryptoWatch',
+        path: '/demos/outside/iframe/cryptowatch',
+        component: IFrameView,
+        meta: {
+          icon: 'cryptocurrency:cix',
+          iframeSrc: 'https://jacobhsu.github.io/crypto-watch/',
+          title: 'Crypto Watch',
+        },
+      },
+      {
+        name: 'CryptoWatch',
+        path: '/demos/outside/iframe/cryptowatch',
+        component: IFrameView,
+        meta: {
+          icon: 'cryptocurrency:blcn',
+          iframeSrc: 'https://jacobhsu.github.io/crypto-watch/ma',
+          title: 'Crypto Watch',
+        },
+      },
+      {
         name: 'TradingviewSignal',
         path: '/demos/outside/iframe/signal',
         component: IFrameView,
@@ -63,26 +83,6 @@ const routes: RouteRecordRaw[] = [
           icon: 'cryptocurrency:eth',
           iframeSrc: 'https://jacobhsu.github.io/altfins-widgets/',
           title: 'ETH',
-        },
-      },
-      {
-        name: 'SOL',
-        path: '/crypto/outside/iframe/sol',
-        component: IFrameView,
-        meta: {
-          icon: 'cryptocurrency:sol',
-          iframeSrc: 'https://jacobhsu.github.io/altfins-widgets/SOL',
-          title: 'SOL',
-        },
-      },
-      {
-        name: 'DOGE',
-        path: '/crypto/outside/iframe/doge',
-        component: IFrameView,
-        meta: {
-          icon: 'cryptocurrency:doge',
-          iframeSrc: 'https://jacobhsu.github.io/altfins-widgets/DOGE',
-          title: 'DOGE',
         },
       },
       {
