@@ -49,7 +49,9 @@ Open the project in Gitpod (free online dev environment for GitHub) and start co
 
 ## Icons
 
-iconify [design](https://icon-sets.iconify.design/) [cryptocurrency](https://iconify.design/icon-sets/cryptocurrency/):eth
+iconify [design](https://icon-sets.iconify.design/) [cryptocurrency](https://icon-sets.iconify.design/cryptocurrency/):eth
+
+> https://icon-sets.iconify.design/?query=chart
 
 ## Install and use
 

@@ -9,22 +9,12 @@ const routes: RouteRecordRaw[] = [
     meta: {
       icon: 'ic:baseline-view-in-ar',
       keepAlive: true,
-      order: 1000,
+      order: 100,
       title: $t('demos.title'),
     },
     name: 'Demos',
     path: '/demos',
     children: [
-      {
-        name: 'stockbot',
-        path: '/demos/outside/iframe/stockbot',
-        component: IFrameView,
-        meta: {
-          icon: 'devicon:openapi',
-          iframeSrc: 'https://stockbot-jade.vercel.app',
-          title: 'stockbot',
-        },
-      },
       {
         name: 'histock',
         path: '/demos/outside/iframe/histock',
