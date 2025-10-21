@@ -14,5 +14,8 @@
   "crypto": {
     "title": "加密貨幣",
     "widgets": "小部件"
+  },
+  "stock": {
+    "title": "美股"
   }
 }

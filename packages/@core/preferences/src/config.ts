@@ -17,7 +17,7 @@ const defaultPreferences: Preferences = {
     enableRefreshToken: false,
     isMobile: false,
     layout: 'sidebar-nav',
-    locale: 'zh-CN',
+    locale: 'zh-TW',
     loginExpiredMode: 'page',
     name: 'Vben Admin',
     preferencesButtonPosition: 'auto',

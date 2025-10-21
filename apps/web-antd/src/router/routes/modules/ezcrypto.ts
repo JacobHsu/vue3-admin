@@ -7,7 +7,7 @@ const routes: RouteRecordRaw[] = [
   {
     component: BasicLayout,
     meta: {
-      icon: 'mdi:coin',
+      icon: 'lineicons:btc',
       keepAlive: true,
       order: 1000,
       title: $t('page.crypto.title'),
