@@ -31,7 +31,7 @@ const routes: RouteRecordRaw[] = [
         component: IFrameView,
         meta: {
           icon: 'hugeicons:chat-01',
-          iframeSrc: 'https://stockbot-jade.vercel.app',
+          iframeSrc: 'https://stockbot-groq-chat.vercel.app/',
           title: 'stockbot',
         },
       },
