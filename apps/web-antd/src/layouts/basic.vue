@@ -53,6 +53,14 @@ const notifications = ref<NotificationItem[]>([
     title: 'CryptoWatch',
     url: 'https://cryptowatch.net/',
   },
+  {
+    avatar: 'https://avatar.vercel.sh/2',
+    date: '刚刚',
+    isRead: false,
+    message: 'Google Finance beta',
+    title: 'Google Finance',
+    url: 'https://www.google.com/finance/beta/',
+  },
 ]);
 
 const userStore = useUserStore();
