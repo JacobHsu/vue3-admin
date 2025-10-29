@@ -45,6 +45,16 @@ const routes: RouteRecordRaw[] = [
           title: 'macromicro',
         },
       },
+      {
+        name: 'ai-trader',
+        path: '/demos/outside/iframe/ai-trader',
+        component: IFrameView,
+        meta: {
+          icon: 'basil:chart-pie-solid',
+          iframeSrc: 'https://hkuds.github.io/AI-Trader/',
+          title: 'AI-Trader',
+        },
+      },
     ],
   },
 ];
