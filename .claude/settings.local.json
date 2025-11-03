@@ -6,7 +6,8 @@
       "Bash(findstr:*)",
       "Bash(powershell -Command:*)",
       "Bash(tasklist:*)",
-      "Bash(taskkill:*)"
+      "Bash(taskkill:*)",
+      "Bash(pnpm start)"
     ],
     "deny": [],
     "ask": []

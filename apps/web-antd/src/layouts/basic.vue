@@ -33,9 +33,9 @@ const notifications = ref<NotificationItem[]>([
     avatar: 'https://www.dianomi.com/img/a/sav2/222436/9/110x70.jpg',
     date: '刚刚',
     isRead: false,
-    message: 'ETF Screener',
-    title: 'FINVIZ.com ETF',
-    url: 'https://finviz.com/map.ashx?t=etf',
+    message: 'Politicians',
+    title: 'Perplexity Finance',
+    url: 'https://www.perplexity.ai/finance/politicians/18f9fc95-4661-444e-99f5-99d3778e0c31',
   },
   {
     avatar: 'https://www.macromicro.me/img/etf/intro.png',

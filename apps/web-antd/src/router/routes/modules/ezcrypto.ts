@@ -22,17 +22,27 @@ const routes: RouteRecordRaw[] = [
         meta: {
           icon: 'cryptocurrency:cix',
           iframeSrc: 'https://jacobhsu.github.io/crypto-watch/',
-          title: 'Crypto Watch',
+          title: 'Crypto Watch BB',
         },
       },
       {
-        name: 'CryptoWatch',
-        path: '/demos/outside/iframe/cryptowatch',
+        name: 'CryptoWatchMa',
+        path: '/demos/outside/iframe/cryptowatchma',
         component: IFrameView,
         meta: {
           icon: 'cryptocurrency:blcn',
           iframeSrc: 'https://jacobhsu.github.io/crypto-watch/ma',
           title: 'Crypto Watch',
+        },
+      },
+      {
+        name: 'CryptoWatchEma',
+        path: '/demos/outside/iframe/cryptowatchema',
+        component: IFrameView,
+        meta: {
+          icon: 'la:chart-line',
+          iframeSrc: 'https://jacobhsu.github.io/crypto-watch/ema',
+          title: 'Crypto Watch EMA',
         },
       },
       {

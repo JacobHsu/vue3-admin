@@ -42,7 +42,7 @@ const routes: RouteRecordRaw[] = [
         meta: {
           icon: 'fa6-solid:mountain-sun',
           iframeSrc: 'https://www.macromicro.me/etf/',
-          title: 'macromicro',
+          title: 'Macromicro',
         },
       },
       {
@@ -53,6 +53,16 @@ const routes: RouteRecordRaw[] = [
           icon: 'basil:chart-pie-solid',
           iframeSrc: 'https://hkuds.github.io/AI-Trader/',
           title: 'AI-Trader',
+        },
+      },
+      {
+        name: 'rockflow',
+        path: '/demos/outside/iframe/rockflow',
+        component: IFrameView,
+        meta: {
+          icon: 'uil:chart-line',
+          iframeSrc: 'https://rockalpha.rockflow.ai/',
+          title: 'Rockflow',
         },
       },
     ],
