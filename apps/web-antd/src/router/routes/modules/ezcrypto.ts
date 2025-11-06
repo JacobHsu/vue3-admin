@@ -56,13 +56,13 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        name: 'TradingviewDemo',
-        path: '/demos/outside/iframe/tradingview',
+        name: 'OpenStockCrypto',
+        path: '/demos/outside/iframe/usstockcrypto',
         component: IFrameView,
         meta: {
-          icon: 'cryptocurrency:bab',
-          iframeSrc: 'https://react-tradingview-widgets.vercel.app',
-          title: 'Tradingview',
+          icon: 'uis:chart',
+          iframeSrc: 'https://next-open-stock.vercel.app/crypto',
+          title: 'OpenStockCrypto',
         },
       },
       {
@@ -103,6 +103,16 @@ const routes: RouteRecordRaw[] = [
           icon: 'ic:baseline-calendar-month',
           iframeSrc: 'https://crypto-weekly-calendar.lovable.app/',
           title: 'Weekly Calendar',
+        },
+      },
+      {
+        name: 'FearGreedIndex',
+        path: '/crypto/outside/iframe/fearGreedIndex',
+        component: IFrameView,
+        meta: {
+          icon: 'https://cdn.coinglasscdn.com/static/icon_200.png',
+          iframeSrc: 'https://www.coinglass.com/pro/i/FearGreedIndex',
+          title: 'FearGreedIndex',
         },
       },
       {
