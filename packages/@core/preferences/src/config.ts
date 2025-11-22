@@ -9,8 +9,7 @@ const defaultPreferences: Preferences = {
     colorWeakMode: false,
     compact: false,
     contentCompact: 'wide',
-    defaultAvatar:
-      'https://unpkg.com/@vbenjs/static-source@0.1.7/source/avatar-v1.webp',
+    defaultAvatar: '/maneki-neko.png',
     dynamicTitle: true,
     enableCheckUpdates: true,
     enablePreferences: true,
