@@ -106,6 +106,16 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
+        name: 'Daily Chart',
+        path: '/crypto/outside/iframe/dailychart',
+        component: IFrameView,
+        meta: {
+          icon: 'solar:chart-2-bold-duotone',
+          iframeSrc: 'https://crypto-daily-log.lovable.app/',
+          title: 'Daily Chart',
+        },
+      },
+      {
         name: 'FearGreedIndex',
         path: '/crypto/outside/iframe/fearGreedIndex',
         component: IFrameView,
