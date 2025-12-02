@@ -36,16 +36,6 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        name: 'macromicro',
-        path: '/demos/outside/iframe/macromicro',
-        component: IFrameView,
-        meta: {
-          icon: 'fa6-solid:mountain-sun',
-          iframeSrc: 'https://www.macromicro.me/etf/',
-          title: 'Macromicro',
-        },
-      },
-      {
         name: 'ai-trader',
         path: '/demos/outside/iframe/ai-trader',
         component: IFrameView,
