@@ -35,6 +35,16 @@ const routes: RouteRecordRaw[] = [
           title: 'CryptoWatch',
         },
       },
+      {
+        name: 'StockReplay',
+        path: '/vben-admin/stockreplay',
+        component: IFrameView,
+        meta: {
+          icon: 'mdi:github',
+          link: 'https://github.com/JacobHsu/stock-replay',
+          title: 'StockReplay',
+        },
+      },
     ],
   },
 ];
