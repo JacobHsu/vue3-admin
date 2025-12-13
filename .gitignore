@@ -49,3 +49,6 @@ vite.config.ts.*
 *.sln
 *.sw?
 .history
+
+# Windows null device file
+nul

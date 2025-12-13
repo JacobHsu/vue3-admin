@@ -116,13 +116,13 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        name: 'FearGreedIndex',
-        path: '/crypto/outside/iframe/fearGreedIndex',
+        name: 'Maxpain',
+        path: '/crypto/outside/iframe/maxpain',
         component: IFrameView,
         meta: {
           icon: 'https://cdn.coinglasscdn.com/static/icon_200.png',
-          iframeSrc: 'https://www.coinglass.com/pro/i/FearGreedIndex',
-          title: 'FearGreedIndex',
+          iframeSrc: 'https://www.coinglass.com/zh-TW/liquidation-maxpain',
+          title: 'Maxpain',
         },
       },
       {

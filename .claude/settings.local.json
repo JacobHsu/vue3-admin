@@ -7,7 +7,14 @@
       "Bash(powershell -Command:*)",
       "Bash(tasklist:*)",
       "Bash(taskkill:*)",
-      "Bash(pnpm start)"
+      "Bash(pnpm start)",
+      "WebFetch(domain:www.aitmpl.com)",
+      "Bash(dir:*)",
+      "WebFetch(domain:davila7.github.io)",
+      "WebFetch(domain:aitmpl.com)",
+      "WebSearch",
+      "WebFetch(domain:www.claudecodeagents.com)",
+      "WebFetch(domain:github.com)"
     ],
     "deny": [],
     "ask": []
