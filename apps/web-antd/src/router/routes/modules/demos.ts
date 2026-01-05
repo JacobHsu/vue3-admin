@@ -26,6 +26,16 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
+        name: 'stockworld',
+        path: '/demos/outside/iframe/stockworld',
+        component: IFrameView,
+        meta: {
+          icon: 'lucide:globe',
+          iframeSrc: 'https://jacobhsu.github.io/stock-world-map',
+          title: 'Stock World',
+        },
+      },
+      {
         name: 'heatmap',
         path: '/demos/outside/iframe/heatmap',
         component: IFrameView,
@@ -88,14 +98,13 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        name: 'etfs',
-        path: '/demos/outside/iframe/etfs',
+        name: 'goodinfo',
+        path: '/demos/outside/iframe/goodinfo',
         component: IFrameView,
         meta: {
-          icon: 'devicon:googlecloud',
-          iframeSrc:
-            'https://docs.google.com/spreadsheets/d/e/2PACX-1vQyuk30N4qW79BNOpBJrJYXuxc80L8Wsraj4JALpVlcg947Od4Yo1NJhYZTOkRMZxTbQOSIWKvuaZEs/pubhtml?gid=1066999246&single=true',
-          title: 'etfs',
+          icon: 'lucide:percent',
+          iframeSrc: 'https://jacobhsu.github.io/goodinfo-dividend',
+          title: 'goodinfo',
         },
       },
     ],
