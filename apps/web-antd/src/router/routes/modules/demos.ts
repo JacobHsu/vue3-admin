@@ -36,12 +36,22 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        name: 'heatmap',
-        path: '/demos/outside/iframe/heatmap',
+        name: 'nstockheatmap',
+        path: '/demos/outside/iframe/nstockheatmap',
         component: IFrameView,
         meta: {
-          icon: 'devicon:minitab',
+          icon: 'tabler:chart-treemap',
           iframeSrc: 'https://www.nstock.tw/market_index/heatmap',
+          title: 'Nstock Heatmap',
+        },
+      },
+      {
+        name: 'heatmap',
+        path: '/demos/outside/iframe/twstock-heatmap',
+        component: IFrameView,
+        meta: {
+          icon: 'tabler:chart-treemap',
+          iframeSrc: 'https://jacobhsu.github.io/twstock-heatmap',
           title: 'heatmap',
         },
       },
@@ -105,6 +115,16 @@ const routes: RouteRecordRaw[] = [
           icon: 'lucide:percent',
           iframeSrc: 'https://jacobhsu.github.io/goodinfo-dividend',
           title: 'goodinfo',
+        },
+      },
+      {
+        name: 'stockreplay',
+        path: '/demos/outside/iframe/stock-replay',
+        component: IFrameView,
+        meta: {
+          icon: 'lucide:history',
+          iframeSrc: 'https://stock-replay.vercel.app/',
+          title: 'stockreplay',
         },
       },
     ],
