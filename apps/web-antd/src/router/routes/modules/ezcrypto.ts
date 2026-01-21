@@ -86,13 +86,13 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        name: 'ETH',
-        path: '/crypto/outside/iframe/eth',
+        name: 'rainbow',
+        path: '/crypto/outside/iframe/rainbow',
         component: IFrameView,
         meta: {
-          icon: 'cryptocurrency:eth',
-          iframeSrc: 'https://jacobhsu.github.io/altfins-widgets/',
-          title: 'ETH',
+          icon: 'emojione:rainbow',
+          iframeSrc: 'https://charts.bitbo.io/rainbow/',
+          title: 'Rainbow Chart',
         },
       },
       {
