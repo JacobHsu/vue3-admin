@@ -76,13 +76,13 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        name: 'BTC',
-        path: '/crypto/outside/iframe/btc',
+        name: 'Polymarket',
+        path: '/crypto/outside/iframe/polymarket',
         component: IFrameView,
         meta: {
-          icon: 'cryptocurrency:btc',
-          iframeSrc: 'https://jacobhsu.github.io/altfins-widgets/BTC',
-          title: 'BTC',
+          icon: 'solar:chart-2-bold-duotone',
+          iframeSrc: 'https://v0-crypto-currency-calendar.vercel.app/',
+          title: 'Polymarket',
         },
       },
       {
@@ -110,7 +110,7 @@ const routes: RouteRecordRaw[] = [
         path: '/crypto/outside/iframe/dailychart',
         component: IFrameView,
         meta: {
-          icon: 'solar:chart-2-bold-duotone',
+          icon: 'mdi:finance',
           iframeSrc: 'https://crypto-daily-log.lovable.app/',
           title: 'Daily Chart',
         },
