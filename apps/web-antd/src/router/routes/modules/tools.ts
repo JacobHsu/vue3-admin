@@ -23,16 +23,6 @@ const routes: RouteRecordRaw[] = [
     path: '/examples',
     children: [
       {
-        name: 'Autogen',
-        path: '/vben-admin/autogen',
-        component: IFrameView,
-        meta: {
-          icon: 'mdi:github',
-          link: 'https://github.com/autogen-dev/Autogen',
-          title: 'Autogen',
-        },
-      },
-      {
         name: 'Automa',
         path: '/vben-admin/automa',
         component: IFrameView,
