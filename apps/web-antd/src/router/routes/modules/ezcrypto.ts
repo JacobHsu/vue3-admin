@@ -21,7 +21,7 @@ const routes: RouteRecordRaw[] = [
         component: IFrameView,
         meta: {
           icon: 'cryptocurrency:btc',
-          iframeSrc: 'https://jacobhsu.github.io/crypto-watch/BTC',
+          iframeSrc: 'https://jacobhsu.github.io/crypto-watch/btc',
           title: 'BTC',
         },
       },
@@ -31,7 +31,7 @@ const routes: RouteRecordRaw[] = [
         component: IFrameView,
         meta: {
           icon: 'cryptocurrency:eth',
-          iframeSrc: 'https://jacobhsu.github.io/crypto-watch/ETH',
+          iframeSrc: 'https://jacobhsu.github.io/crypto-watch/eth',
           title: 'ETH',
         },
       },
