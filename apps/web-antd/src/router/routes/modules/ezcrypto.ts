@@ -16,23 +16,23 @@ const routes: RouteRecordRaw[] = [
     path: '/crypto',
     children: [
       {
-        name: 'CryptoWatch',
-        path: '/demos/outside/iframe/cryptowatch',
+        name: 'BTC',
+        path: '/demos/outside/iframe/btc',
         component: IFrameView,
         meta: {
-          icon: 'cryptocurrency:cix',
-          iframeSrc: 'https://jacobhsu.github.io/crypto-watch/',
-          title: 'Crypto Watch BB',
+          icon: 'cryptocurrency:btc',
+          iframeSrc: 'https://jacobhsu.github.io/crypto-watch/BTC',
+          title: 'BTC',
         },
       },
       {
-        name: 'CryptoWatchMa',
-        path: '/demos/outside/iframe/cryptowatchma',
+        name: 'ETH',
+        path: '/demos/outside/iframe/eth',
         component: IFrameView,
         meta: {
-          icon: 'cryptocurrency:blcn',
-          iframeSrc: 'https://jacobhsu.github.io/crypto-watch/ma',
-          title: 'Crypto Watch',
+          icon: 'cryptocurrency:eth',
+          iframeSrc: 'https://jacobhsu.github.io/crypto-watch/ETH',
+          title: 'ETH',
         },
       },
       {
