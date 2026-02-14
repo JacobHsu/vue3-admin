@@ -26,6 +26,17 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
+        name: 'watchlist',
+        path: '/demos/outside/iframe/watchlist',
+        component: IFrameView,
+        meta: {
+          icon: 'uis:align-right',
+          iframeSrc:
+            'https://docs.google.com/spreadsheets/d/19rG_hVniPCcqaIU8RQA5lACPUDDNxn2qbdjUjAuRFak/edit?usp=sharing',
+          title: ' Watchlist',
+        },
+      },
+      {
         name: 'stockbot',
         path: '/demos/outside/iframe/stockbot',
         component: IFrameView,
