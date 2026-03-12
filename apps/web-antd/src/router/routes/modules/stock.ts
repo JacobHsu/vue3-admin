@@ -47,13 +47,13 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        name: 'ai-trader',
-        path: '/demos/outside/iframe/ai-trader',
+        name: 'daily-stock-analysis',
+        path: '/demos/outside/iframe/daily-stock-analysis',
         component: IFrameView,
         meta: {
           icon: 'basil:chart-pie-solid',
-          iframeSrc: 'https://hkuds.github.io/AI-Trader/',
-          title: 'AI-Trader',
+          iframeSrc: 'https://jacobhsu.github.io/daily-stock-analysis',
+          title: 'Stock Analysis',
         },
       },
       {
