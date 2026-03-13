@@ -14,7 +14,11 @@
       "WebFetch(domain:aitmpl.com)",
       "WebSearch",
       "WebFetch(domain:www.claudecodeagents.com)",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(ls /c/github/vue3-admin && git -C /c/github/vue3-admin log --oneline -15)",
+      "Bash(git -C /c/github/vue3-admin log --oneline --all -- packages/effects/request/src/request-client/preset-interceptors.ts | head -10)",
+      "Bash(git -C /c/github/vue3-admin log --oneline --all -- packages/effects/request/ | head -10)",
+      "Bash(git -C /c/github/vue3-admin show 3bde56c --stat | head -20)"
     ],
     "deny": [],
     "ask": []

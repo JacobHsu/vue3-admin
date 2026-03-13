@@ -52,3 +52,5 @@ vite.config.ts.*
 
 # Windows null device file
 nul
+
+docs

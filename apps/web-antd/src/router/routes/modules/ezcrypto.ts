@@ -126,6 +126,16 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
+        name: 'Mergev2',
+        path: '/crypto/outside/iframe/mergev2',
+        component: IFrameView,
+        meta: {
+          icon: 'https://cdn.coinglasscdn.com/static/icon_200.png',
+          iframeSrc: 'https://www.coinglass.com/zh-TW/mergev2/BTC-USDT',
+          title: 'Mergev2',
+        },
+      },
+      {
         name: 'Coinglass',
         path: '/crypto/outside/iframe/coinglass',
         component: IFrameView,
